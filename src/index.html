@@ -20,7 +20,10 @@
 <body>
   <!-- Write your HTML code here, you can delete everything withing the body tags -->
   <div class="container-fluid text-center">
-   <a href="https://www.youtube.com/watch?v=EJmotG3Pjmw&list=RDEJmotG3Pjmw&start_radio=1" style="text-decoration: none; color: black;"><h1 class="mt-5">Vamos a Jugar un Juego.</h1></a> 
+    <a href="https://www.youtube.com/watch?v=EJmotG3Pjmw&list=RDEJmotG3Pjmw&start_radio=1"
+      style="text-decoration: none; color: black;">
+      <h1 class="mt-5">Vamos a Jugar un Juego.</h1>
+    </a>
     <div class="row pt-2">
       <h2>Selecciona una opcion para enfrentarte a la computadora!</h2>
       <div class="col d-flex gap-5 justify-content-center pb-5">
@@ -37,14 +40,16 @@
     <!-- Aca estaran los botones el cual Jugo el User y se mostrara el que selecciono -->
     <div class="row">
       <div class="col pb-5">
-        <button type="button" class="btn btn-lg btn-primary mb-3" id="blank"><i
-            class="fa-solid fa-play"></i></button>
-
-            <h2>Toca alguna opcion para Jugar y probar tu RNG!</h2>
-            <h1 id="respuesta">Juega</h1>
+        <button type="button" class="btn btn-lg btn-primary mb-3" id="blank"><i class="fa-solid fa-play"></i></button>
+          <h2>Toca alguna opcion para Jugar y probar tu RNG!</h2>
+          <h1 id="respuesta">Juega</h1>
+        <div id="eleccionPC"></div>
+        <div>
+          <h2>Opcion de la computadora:  </h2>
+          <h1 id="mensajePC"></h1>
+        </div>
       </div>
     </div>
-
     <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
     <script type="module" src="/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
